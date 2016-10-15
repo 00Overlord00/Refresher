@@ -1,13 +1,34 @@
 body {
   font-family: lucida, sans-serif;
-  background-color: blue;
 }
 
-.queryArea {
-  VW: 750px;
-  VH: 2000px;
+#queryArea {
+  width: 50vw;
+  height: 1000vh;
+  background-color: blue;
+  margin-left: 27%;
+  padding-top: .25%;
+}
+
+#buttonArea {
+  background-color: orange;
+  padding-left: 40%
+  padding-top: 25%;
+  padding-bottom: 25%;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%
 }
 
 h1 {
   font: lucida;
+  margin-left: 40%;
+}
+
+#queryButton {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
 }
