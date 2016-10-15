@@ -10,7 +10,7 @@ var connectionString = 'postgres//localhost:5432/testDB';
 app.use( bodyParser.json() );
 
 app.listen( 9000, 'localhost', function( req, res ) {
-  console.log( 'Hailing frequencies open, Captain. Listening on PORT 5500.' );
+  console.log( 'Hailing frequencies open, Captain. Listening on PORT 9000.' );
 });
 
 app.use( express.static( 'public' ) );

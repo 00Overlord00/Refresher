@@ -1,0 +1,13 @@
+body {
+  font-family: lucida, sans-serif;
+  background-color: blue;
+}
+
+.queryArea {
+  VW: 750px;
+  VH: 2000px;
+}
+
+h1 {
+  font: lucida;
+}
