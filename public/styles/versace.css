@@ -1,9 +1,10 @@
 body {
-  font-family: lucida, sans-serif;
+  font-family: Oswald, lucida, sans-serif;
   background-color: grey;
 }
 
 #queryArea {
+  font-family: Oswald, lucida, sans-serif;
   border-radius: 25px;
   border-style: solid;
   border: 2px, 2px, 2px, 2px;
@@ -17,6 +18,7 @@ body {
 }
 
 #buttonArea {
+  font-family: Oswald, lucida, sans-serif;
   border-radius: 25px;
   border-style: solid;
   border: 2px, 2px, 2px, 2px, white;
@@ -24,12 +26,13 @@ body {
   padding-left: 40%
   padding-top: 25%;
   padding-bottom: 25%;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%
 }
 
 #headerArea {
+  font-family: Oswald, lucida, sans-serif;
   margin-bottom: 1%;
   color: white;
   border-radius: 25px;
@@ -47,11 +50,12 @@ body {
 }
 
 h1 {
-  font: lucida;
-  margin-left: 27%;;
+  font-family: Oswald, lucida, sans-serif;
+  margin-left: 30%;;
 }
 
 #queryButton {
+  font-family: Oswald, lucida, sans-serif;
   border-radius: 10px;
   background-color: #771100;
   color: white;
@@ -66,4 +70,35 @@ h1 {
   border-style: solid;
   border-color: white;
   font-size: 90%;
+}
+
+#queryButton:hover {
+  background-color: grey;
+  border-color: black;
+  color: black;
+}
+
+#secondArea {
+  font-family: Oswald, lucida, sans-serif;
+  border-radius: 25px;
+  border-style: solid;
+  border: 2px, 2px, 2px, 2px, white;
+  background-color: orange;
+  padding-left: 40%
+  padding-top: 25%;
+  padding-bottom: 25%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.p {
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+}
+
+.aitchThree {
+  color: black;
+  margin-left: 20%;
 }
