@@ -1,16 +1,25 @@
 body {
   font-family: lucida, sans-serif;
+  background-color: grey;
 }
 
 #queryArea {
+  border-radius: 25px;
+  border-style: solid;
+  border: 2px, 2px, 2px, 2px;
+  border-color: white;
+  color: white;
   width: 50vw;
   height: 1000vh;
-  background-color: blue;
+  background-color: #007777;
   margin-left: 27%;
   padding-top: .25%;
 }
 
 #buttonArea {
+  border-radius: 25px;
+  border-style: solid;
+  border: 2px, 2px, 2px, 2px, white;
   background-color: orange;
   padding-left: 40%
   padding-top: 25%;
@@ -20,15 +29,41 @@ body {
   margin-right: 10%
 }
 
+#headerArea {
+  margin-bottom: 1%;
+  color: white;
+  border-radius: 25px;
+  margin-left: 40%;
+  background-color: #007777;
+  margin-left: 27%;
+  width: 50vw;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-right: 2px;
+  border-left: 2px;
+  border-style: solid;
+  border-color: white;
+  margin-bottom:
+}
+
 h1 {
   font: lucida;
-  margin-left: 40%;
+  margin-left: 27%;;
 }
 
 #queryButton {
+  border-radius: 10px;
+  background-color: #771100;
+  color: white;
+  font: lucida;
+  margin-left: 10px;
+  margin-top: 25px;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
-
+  border: 5%, 5%, 5%, 5%;
+  border-style: solid;
+  border-color: white;
+  font-size: 90%;
 }
