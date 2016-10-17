@@ -1,9 +1,12 @@
 body {
   font-family: Oswald, lucida, sans-serif;
+  background-image: url( '../images/metal_backdrop.jpg' );
+  background-repeat: default;
   background-color: grey;
 }
 
 #queryArea {
+  background-image: url( '../images/worn_metal_backdrop.jpg' );
   font-family: Oswald, lucida, sans-serif;
   border-radius: 25px;
   border-style: solid;
@@ -74,8 +77,9 @@ h1 {
 
 #queryButton:hover {
   background-color: grey;
-  border-color: black;
-  color: black;
+  border-color: white;
+  background-image: url( "../images/Space-image.jpg" );
+  color: yellow;
 }
 
 #secondArea {
@@ -108,6 +112,6 @@ h1 {
 }
 
 .aitchThree {
-  color: #0044BB;
+  color: #2244BB;
   margin-left: 15%;
 }
